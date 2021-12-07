@@ -1,0 +1,65 @@
+* {
+    font-family: 'robotoregular';
+}
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.clear:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+/* Background Colors */
+.withe_bac {
+    background-color: #fff;
+}
+.dark_blue_bac {
+    background-color: #19283f;
+}
+.light_red_bac {
+    background-color: #ff3150;
+}
+.portfolio_bac {
+    background-color: #eff7fa;
+}
+.turquoise_bac {
+    background-color: #7fe0de;
+}
+.yellow_bac {
+    background-color: #ffc400;
+}
+
+/* Colors */
+
+.white {
+    color: #fff;
+}
+.txt_grey {
+    color: #a8b9c0;
+}
+.light_grey {
+    color: #eff7fa;
+}
+.yellow {
+    color: #ffc400;
+}
+.light_yellow {
+    color: #ffc501;
+}
+.orange {
+    color: #ff4032;
+}
+.sky_blue {
+    color: #1ec4ff;
+}
+.light_blue {
+    color: #347cd2;
+}
+.turquoise_txt {
+    color: #00c7c0;
+}
+.darkblue_txt {
+    color: #1a2940;
+}

@@ -1,0 +1,44 @@
+/*-------------------------------------
+    1.NEWSLLETER - Text elements/button
+    2.Devices - @MEDIA
+ --------------------------------------*/
+    
+    /* NEWSLLETER - Text elements/button */
+#newslleter {
+    padding: 23px 0 22px 0;
+}
+#newslleter > div > .row > .col > div {
+    float: left;
+}
+#newslleter > div > .row > .col > div:first-child {
+    margin: 20px 39px 0 112px;
+    font-size: 20px;
+    font-weight: 600;
+}
+#newslleter > div > .row > .col > div:first-child > span {
+    text-transform: capitalize;
+}
+#newslleter > div > .row > .col > div:first-child + div {
+    border-bottom: 1px solid #fff;
+    width: 442px;
+    margin: 20px 30px 0 0; 
+}
+#newslleter > div > .row > .col > div:first-child + div > p {
+    padding: 0 0 10px 0;
+    font-size: 20px;
+    font-weight: 400;
+}
+#newslleter > div > .row > .col > div:first-child + div > p > span {
+    text-transform: capitalize;
+}
+#newslleter > div > .row > .col > div:last-child {
+    width: 198px;
+    height: 45px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#newslleter > div > .row > .col > div:last-child > p {
+    text-align: center;
+    padding: 15px;
+    text-transform: capitalize;
+}

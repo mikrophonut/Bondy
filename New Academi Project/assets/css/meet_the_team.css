@@ -1,0 +1,80 @@
+/*-------------------------------------
+    1.Meet_the_team - Navigation text elements
+    2.Meet_the_team - Main Box elements
+    3.Devices - @MEDIA
+ --------------------------------------*/
+
+    /* Meet_the_team - Navigation text elements */
+#meet_the_team {
+    text-align: center;
+}
+#meet_the_team > div > .row > .col:first-child > div > h2 {
+    font-size: 35px;
+    text-transform: capitalize;
+    font-weight: 700;
+    padding: 113px 0 0 0;
+    margin: 0 0 32px 0;
+}
+#meet_the_team > div > .row > .col:first-child > div > h2 + p {
+    margin: 0 0 62px 0;
+}
+
+    /* Meet_the_team - Main Box elements */
+#meet_the_team > div > .row:last-child > .col {
+    float: left;
+    margin: 0 26px 0 0;
+}
+#meet_the_team > div > .row:last-child > .col:last-child {
+    margin: 0;
+}
+#meet_the_team > div > .row:last-child > .col > div {
+    width: 270px;
+    cursor: pointer;
+}
+#meet_the_team > div > .row:last-child > .col > div:first-child {
+    height: 220px;
+}
+#meet_the_team > div > .row:last-child > .col > div:first-child + div {
+    height: 50px;
+}
+#meet_the_team > div > .row:last-child > .col > div:last-child {
+    height: 119px;
+    margin: 0 0 60px 0;
+}
+#meet_the_team > div > .row:last-child > .col > div:first-child + div > p {
+    text-transform: capitalize;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 400;
+}
+#meet_the_team > div > .row:last-child > .col:first-child > div:first-child {
+    background-image: url("../img/sections_img/luke_skywalker.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#meet_the_team > div > .row:last-child > .col:first-child + .col > div:first-child {
+    background-image: url("../img/sections_img/obi-wan.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#meet_the_team > div > .row:last-child > .col:first-child + .col + .col > div:first-child {
+    background-image: url("../img/sections_img/leia.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#meet_the_team > div > .row:last-child > .col:last-child > div:first-child {
+    background-image: url("../img/sections_img/yoda.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+#meet_the_team > div > .row:last-child > .col > div:last-child > p {
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    padding: 35px 0 0 0;
+}
+#meet_the_team > div > .row:last-child > .col > div:last-child > p > span {
+    text-transform: capitalize;
+}
+
+    /* Devices - @MEDIA */

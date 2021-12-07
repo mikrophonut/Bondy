@@ -1,0 +1,47 @@
+/*-------------------------------------
+    1.CLIENTS - Icon elements
+    2.Devices - @MEDIA
+ --------------------------------------*/
+
+    /* CLIENTS - Icon elements */
+#clients > div > .row > .col {
+    float: left;
+}
+#clients > div > .row > .col > div {
+}
+#clients > div > .row > div[class="col"] > div {
+    background-repeat: no-repeat;
+    margin: 50px 100px 50px 0;
+}
+#clients > div > .row > .col:first-child > div {
+    width: 62px;
+    height: 64px;
+    background-image: url("../img/sections_img/logo_1.gif");
+    margin: 50px 100px 50px 51px;
+}
+#clients > div > .row > .col:first-child + .col > div {
+    width: 105px;
+    height: 40px;
+    background-image: url("../img/sections_img/logo_2.gif");
+}
+#clients > div > .row > .col:first-child + .col + .col > div {
+    width: 118px;
+    height: 43px;
+    background-image: url("../img/sections_img/logo_3.gif");
+}
+#clients > div > .row > .col:first-child + .col + .col + .col > div {
+    width: 118px;
+    height: 43px;
+    background-image: url("../img/sections_img/logo_4.gif");
+}
+#clients > div > .row > .col:first-child + .col + .col + .col +.col > div {
+    width: 62px;
+    height: 64px;
+    background-image: url("../img/sections_img/logo_1.gif");
+}
+#clients > div > .row > .col:last-child > div {
+    width: 105px;
+    height: 40px;
+    background-image: url("../img/sections_img/logo_2.gif");
+    margin: 50px 0 50px 0;
+}

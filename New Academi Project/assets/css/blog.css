@@ -1,0 +1,82 @@
+/*-------------------------------------
+    1.Blog - Navigation text elements
+    2.Blog - Midle section - box/text element
+    3.Blog - button
+    4.Devices - @MEDIA
+ --------------------------------------*/
+
+    /* Blog - Navigation text elements */
+#blog > div > .row:first-child > .col > div:first-child {
+    text-align: center;
+}
+#blog > div > .row:first-child > .col > div:first-child > p {
+    text-align: center;
+    display: inline-block;
+    margin: 58px 0 50px 0;
+}
+#blog > div > .row:first-child > .col > div + div > p {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 35px;
+    font-weight: 600;
+    margin: 0 0 22px 0;
+}
+#blog > div > .row:first-child > .col > div + div + div > p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0 0 16px 0;
+}
+#blog > div > .row:first-child > .col  > div + div + div + div {
+    margin: 0 0 75px 0;
+}
+#blog > div > .row:first-child > .col  > div + div + div + div > p {
+    width: 150px;
+    height: 1px;
+    border-bottom: 1px solid #00c6bf;
+    margin: 0 auto;
+}
+
+    /* Blog - Midle section - box/text element */
+#blog > div > .row:first-child + .row > .col {
+    float: left;
+    margin: 0 30px 0 0;
+}
+#blog > div > .row:first-child + .row > .col:last-child {
+    margin: 0;
+}
+#blog > div > .row:first-child + .row > .col > div {
+    width: 370px;
+    height: 130px;
+    margin: 0 0 17px 0;
+} 
+#blog > div > .row:first-child + .row > .col > div + p {
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 0 0 15px 0;
+} 
+#blog > div > .row:first-child + .row > .col > p:last-child {
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 0 64px 0;
+}
+    /* Blog - button */
+#blog > div > .row:last-child> .col {
+    text-align: center;
+}    
+#blog > div > .row:last-child> .col > div {
+    display: inline-block;
+    width: 208px;
+    height: 45px;  
+    border-radius: 20px;
+    margin: 0 0 57px 0;
+    cursor: pointer ;
+    text-align: center;
+}
+#blog > div > .row:last-child > .col > div > p {
+    padding: 15px;
+    text-transform: uppercase;
+}

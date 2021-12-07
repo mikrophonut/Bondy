@@ -1,0 +1,114 @@
+/*-------------------------------------
+    1.FOOTER - Common settings
+    2.FOOTER - First column
+    3.FOOTER - Second column
+    4.FOOTER - Third column
+    5.FOOTER - Forth column
+    6.Devices - @MEDIA
+ --------------------------------------*/
+
+    /* FOOTER - Common settings */
+footer > div > .row > .col {
+    float: left;
+    display: inline-block;
+}
+footer > div > .row > .col:first-child > ul {
+    margin: 85px 59px 0 0;
+}
+footer > div > .row > .col:first-child + .col > ul {
+    margin: 63px 78px 0 0;
+}
+footer > div > .row > .col:first-child + .col +.col > ul {
+    margin: 63px 120px 0 0;
+}
+footer > div > .row > .col:last-child > ul {
+    margin: 63px 0 0 0;
+}
+
+    /* FOOTER - First column */
+footer > div > .row > .col:first-child > ul > li:first-child {
+    margin: 0 0 32px 0;
+}
+footer > div > .row > .col:first-child > ul > li:first-child + li {
+    margin: 0 0 5px 0;
+    font-size: 13px;
+    line-height: 30px;
+    font-weight: 400;
+}
+footer > div > .row > .col:first-child > ul > li:first-child + li + li {
+    margin: 0 0 80px 0;
+    font-size: 13px;
+    line-height: 30px;
+    font-weight: 400;   
+}
+footer > div > .row > .col:first-child > ul > li:first-child + li + li + li {
+    margin: 0 0 16px 0;    
+    font-size: 13px;
+    font-weight: 400;      
+}
+footer > div > .row > .col:first-child > ul > li:last-child {
+    margin: 0 0 60px 0;
+}
+
+    /* FOOTER - Second column */
+footer > div > .row > .col:first-child + .col > ul > li {
+    text-transform: capitalize;
+    margin: 0 0 28px 0;
+    font-size: 13px;
+    font-weight: 400;
+}
+footer > div > .row > .col:first-child + .col > ul > li:first-child {
+    font-size: 17px;
+}
+
+    /* FOOTER - Third column */
+footer > div > .row > .col:first-child + .col + .col > ul > li {
+    text-transform: capitalize;
+    margin: 0 0 28px 0;
+    font-size: 13px;
+    font-weight: 400;   
+}
+footer > div > .row > .col:first-child + .col +.col > ul > li:first-child {
+    font-size: 17px;
+}
+
+    /* FOOTER - Forth column */
+footer > div > .row > .col:last-child > ul > li {
+    margin: 0 0 18px 0;
+    font-size: 13px;
+    font-weight: 400;      
+}
+footer > div > .row > .col:last-child > ul > li:first-child {
+    text-transform: capitalize;
+    font-size: 16px;
+}
+footer > div > .row > .col:last-child > ul > li:first-child + li > p > span {
+    text-transform: capitalize  ;
+}
+footer > div > .row > .col:last-child > ul > li:first-child + li + li {
+    margin: 0 0 44px 0;
+}
+    /* BUTTON */
+footer > div > .row > .col:last-child > ul > li:first-child + li + li + li > div {
+    width: 371px;
+    height: 45px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+footer > div > .row > .col:last-child > ul > li:first-child + li + li + li > div > p {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    padding-top: 15px;
+}
+    /* SOCIAL MEDIA */
+
+footer > div > .row > .col:last-child > ul > li:last-child > div {
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    display: inline-block;
+    margin: 20px 10px 0 0;
+    border-radius: 19px;
+    cursor: pointer;
+}

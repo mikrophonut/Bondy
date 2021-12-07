@@ -1,0 +1,114 @@
+/*-------------------------------------
+    1.PORTFOLIO - Navigation text elements
+    2.PORTFOLIO - Main Box elements
+    3.Devices - @MEDIA
+ --------------------------------------*/
+
+ /* PORTFOLIO - Navigation text elements */
+#portfolio > div > .row:first-child > .col > div:first-child {
+    text-align: center;
+}
+#portfolio > div > .row:first-child > .col > div:first-child > p {
+    text-align: center;
+    display: inline-block;
+    margin: 58px 0 50px 0;
+}
+#portfolio > div > .row:first-child > .col > div + div > p {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 35px;
+    font-weight: 600;
+    margin: 0 0 22px 0;
+}
+#portfolio > div > .row:first-child > .col > div + div + div > p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0 0 16px 0;
+}
+#portfolio > div > .row:first-child > .col  > div + div + div + div {
+    margin: 0 0 75px 0;
+}
+#portfolio > div > .row:first-child > .col  > div + div + div + div > p {
+    width: 150px;
+    height: 1px;
+    border-bottom: 1px solid #00c6bf;
+    margin: 0 auto;
+}
+#portfolio > div > .row:first-child > .col > div:last-child {
+    text-align: center;
+    text-transform: capitalize;
+}
+#portfolio > div > .row:first-child > .col > div:last-child > ul {
+    display: inline-block   ;
+}
+#portfolio > div > .row:first-child > .col > div:last-child > ul > li {
+    float: left;
+    margin: 0 5px 58px 0;
+}
+#portfolio > div > .row:first-child > .col > div:last-child > ul > li > div {
+    padding: 17px;
+    border-radius: 10px;
+}
+#portfolio > div > .row:first-child > .col > div:last-child > ul > li > div:hover {
+    background-color: #ff3150;
+    color: #ffc400;
+}
+
+/* PORTFOLIO - Main Box elements */
+#portfolio > div > .row:first-child + .row {
+    text-align: center;
+    margin: 0 0 60px 0;
+}
+#portfolio > div > .row:first-child + .row > .col {
+    display: inline-block;
+    margin: 0 0 58px 0;
+}
+#portfolio > div > .row:first-child + .row > .col > div {
+    width: 270px;
+    height: 200px;
+    box-shadow: 5px 5px 10px grey;
+}
+#portfolio > div > .row:first-child + .row > .col > div:first-child {
+    margin: 0 0 28px 0;
+}
+#portfolio > div > .row:first-child + .row > .col:first-child > div:first-child {
+    margin-right: 20px;
+}
+#portfolio > div > .row:first-child + .row > .col:first-child + div > div:first-child {
+    margin-right: 20px;
+}
+#portfolio > div > .row:first-child + .row > .col:first-child + div + div > div:first-child {
+    margin-right: 20px;
+
+}       
+#portfolio > div > .row:first-child + .row > .col > div > p {
+    margin: 55px 0 50px 0;
+    padding: 65px 0 0 0;
+    font-size: 20px;
+    font-weight: 400;
+    display: block;
+    cursor: pointer;
+}
+#portfolio > div > .row:first-child + .row > .col > div > p > span {
+    font-size: 15px;
+    font-weight: 400;
+}
+#portfolio > div > .row:last-child > .col {
+    text-align: center;
+}
+#portfolio > div > .row:last-child > .col > div {
+    display: inline-block;
+    width: 208px;
+    height: 45px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 0 0 60px 0;
+}
+#portfolio > div > .row:last-child > .col > div:last-child > p {
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-top: 14px;
+}
